@@ -1,0 +1,24 @@
+header {
+    color: black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 1px rgba(201, 201, 201, 0.753);
+}
+
+h1 {
+    font-size: 23px;
+    padding-left: 20px;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+h1 a:link {
+    color: black;
+}
+
+h1 a:visited {
+    color: black;
+}
