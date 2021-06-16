@@ -1,0 +1,35 @@
+.crews {
+    margin: 1em 1em 1em 1em;
+    width: 100%;
+    text-align: center;
+}
+
+.crews .crew_item {
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.crews .crew_img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 70%;
+}
+
+.crews .crew_name {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    font-size: 0px;
+}
+
+.crews a:hover .crew_img {
+    opacity: 0.5;
+}
+
+.crews a:hover .crew_name{
+    color: black;
+    font-size: 30px;
+}
