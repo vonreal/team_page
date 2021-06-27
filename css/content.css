@@ -1,0 +1,55 @@
+main {
+    margin: 0 100px 0 100px;
+    display: flex;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+}
+main ul {
+    margin: 30px;
+    list-style: none;
+}
+
+main ul p {
+    background: linear-gradient(to top, #FFE400 40%, transparent 40%);
+}
+
+main ul, li {
+    padding: 10px 0 0 0;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.contents {
+    width: 80%;
+}
+
+.content_item {
+    margin: 30px 20px 20px 20px;
+}
+
+.author_info p{
+    display: inline;
+}
+
+.author_info img {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 70%;
+}
+
+.content p {
+    margin: 10px 0 50px 0;
+    padding-top: 5px;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.714);
+}
+
+.content h2 {
+    margin: 20px 0 0 0;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Do Hyeon', sans-serif;
+}
