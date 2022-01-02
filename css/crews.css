@@ -1,6 +1,5 @@
 .crews {
     margin: 1em 1em 1em 1em;
-    width: 100%;
     text-align: center;
 }
 
@@ -11,8 +10,8 @@
 }
 
 .crews .crew_img img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 70%;
 }
 
@@ -31,5 +30,5 @@
 
 .crews a:hover .crew_name{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
 }
